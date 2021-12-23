@@ -5,5 +5,6 @@
 #include "Headers.h"
 
 string formatting(vector<string> t);
+bool findChar(char x, string y);
 
 #endif // FORMAT_H

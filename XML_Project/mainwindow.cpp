@@ -276,6 +276,7 @@ void MainWindow::on_actionmakeindentions_triggered()
           XML_Strings = XML_Parsing_Data(text);
           checking_errors(XML_Strings, Right_XML, Errors);
           str = formatting(Right_XML);
+
           ui->textEdit->setPlainText(QString::fromStdString(str));
       }
       else    ui->statusbar->showMessage("The file is empty");
