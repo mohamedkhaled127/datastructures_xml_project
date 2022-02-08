@@ -38,3 +38,8 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     Resources.qrc
+
+DISTFILES += \
+    Graph.py \
+    python/LOGO.PNG \
+    python/foo.png

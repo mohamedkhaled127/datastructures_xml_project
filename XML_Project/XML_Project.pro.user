@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 6.0.1, 2021-12-23T20:55:41. -->
+<!-- Written by QtCreator 6.0.1, 2022-02-08T16:50:24. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -240,8 +240,9 @@
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/khaled/Desktop/XML_PROJECT/XML_Project/XML_Project.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/khaled/Desktop/XML_PROJECT/XML_Project/XML_Project.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">XML_Project2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/khaled/Desktop/New folder (6)/datastructures_xml_project-main/datastructures_xml_project-main/XML_Project/XML_Project/XML_Project.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/khaled/Desktop/New folder (6)/datastructures_xml_project-main/datastructures_xml_project-main/XML_Project/XML_Project/XML_Project.pro</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>

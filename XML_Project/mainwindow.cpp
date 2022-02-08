@@ -5,13 +5,19 @@
 #include <QFileDialog>
 #include <QTextStream>
 #include <QMessageBox>
+#include <QPixmap>
+#include <QProcess>
+#include <QProcessEnvironment>
+#include <QDir>
+
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    this->setCentralWidget(ui->textEdit); //remove side spaces
+
+
 }
 
 MainWindow::~MainWindow()
@@ -318,5 +324,16 @@ void MainWindow::on_actiondecompress_triggered()
         QMessageBox::critical(this, "Erorr", "File Type must be dat");
 
     File.close();
+}
+
+
+void MainWindow::on_actiongraph_triggered()
+{
+   QDir::setCurrent("C:\\Users\\khaled\\Desktop\\New folder (6)\\datastructures_xml_project-main\\datastructures_xml_project-main\\XML_Project\\XML_Project\\python");
+  system("python.exe Graph.py");
+
+    QPixmap p("C:\\Users\\khaled\\Desktop\\New folder (6)\\datastructures_xml_project-main\\datastructures_xml_project-main\\XML_Project\\XML_Project\\python\\foo.png");
+    ui->label->setPixmap(p);
+
 }
 

@@ -51,6 +51,8 @@ private slots:
 
     void on_actiondecompress_triggered();
 
+    void on_actiongraph_triggered();
+
 private:
     Ui::MainWindow *ui;
     QString file_path;
